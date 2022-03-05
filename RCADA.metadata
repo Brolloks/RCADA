@@ -1,6 +1,6 @@
 {
-"name": "Stake ADA Pool",
-"description": "80's SYNTH POOL",
-"ticker": "RCADA",
-"homepage": "https://stake-cardano-pool.com"
+  "name": "Stake ADA Pool",
+  "description": "80's SYNTH POOL",
+  "ticker": "RCADA",
+  "homepage": "https://stake-cardano-pool.com"
 }
