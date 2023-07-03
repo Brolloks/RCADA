@@ -1,0 +1,52 @@
+{
+  "721": {
+    "<policy_id>": {
+      "<asset_name>": {
+        "name": "<asset_name>",
+        "image": "<ipfs_link>",
+        "mediaType": "image/png",
+        "6_Artist Details:": {
+          "Hand drawn by: ": "Rick Carstens",
+          "CNC Member Pool: ": "RCADA",
+          "Website": "https://www.stakecardanopool.com/"
+        },
+        "1_Project Details:": {
+          "Project Name:": "CNC Ala",
+          "Location:": "Madagascar, Ranomafana",
+          "Funding Dashboard": "https://cncala.climateneutralcardano.org/"
+        },
+        "2_Socials:": {
+          "Website": "https://climateneutralcardano.org/cnc-ala-ispo/",
+          "Twitter": "https://twitter.com/CNCardano",
+          "Discord": "https://discord.com/invite/5wZg7cQJeM",
+          "Telegram": "https://t.me/+eR_00UAp9PY5N2Iy"
+        },
+        "3_Attributes/": {
+          "Ticket:": 102,
+          "Total Supply:": 600,
+          "Price:": "50 ADA",
+          "NGO:": "Tetikasa Ala",
+          "Issued by:": "CNC Alliance",
+          "Smart Contract by:": "Marlowe"
+        },
+        "4_Series:": "CNC Ala Raffle",
+        "5_Description": [
+          "Preserving Earth's Canvas: Your NFT, Our Impact!",
+          "An investment in our planet.",
+          "Each NFT sold aids crucial ecological conservation efforts.",
+          "Together, we're turning digital art into tangible change.",
+          "Your NFT, our shared future!",
+          "- Thank you for your support -"
+        ],
+        "files": [
+          {
+            "name": "<asset_name>",
+            "mediaType": "image/png",
+            "src": "<ipfs_link>"
+          }
+        ]
+      }
+    },
+    "version": "1.0"
+  }
+}
