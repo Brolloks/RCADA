@@ -1,8 +1,7 @@
 name: Generate JSON files
 
 on:
-  push:
-    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -29,7 +28,7 @@ jobs:
         git diff-index --quiet HEAD || echo "files changed" || exit 1
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add .  # Add this line
+        git add .
         git commit -am "Automated JSON files update"
         git push
       env:
