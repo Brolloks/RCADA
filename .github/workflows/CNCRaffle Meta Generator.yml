@@ -23,14 +23,14 @@ jobs:
     - name: Generate JSON files
       run: node generate.js
 
-- name: Commit and push if it changed
-  run: |
-    git diff
-    git diff-index --quiet HEAD || echo "files changed" || exit 1
-    git config --local user.email "action@github.com"
-    git config --local user.name "GitHub Action"
-    git add .  # Add this line
-    git commit -am "Automated JSON files update"
-    git push
-  env:
-    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Commit and push if it changed
+      run: |
+        git diff
+        git diff-index --quiet HEAD || echo "files changed" || exit 1
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .  # Add this line
+        git commit -am "Automated JSON files update"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
