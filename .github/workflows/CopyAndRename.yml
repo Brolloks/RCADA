@@ -47,6 +47,7 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+        git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
         git add -A
         timestamp=$(date -u)
         git commit -m "Automated copy and rename process run at ${timestamp}" || exit 0
