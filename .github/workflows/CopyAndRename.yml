@@ -43,12 +43,15 @@ jobs:
         console.log('Files have been copied and renamed.');\
         "
 
-    - name: Commit and push if it changed
+    - name: Commit files
       run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-        git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-        git add -A
-        timestamp=$(date -u)
-        git commit -m "Automated copy and rename process run at ${timestamp}" || exit 0
-        git push
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add CNC-Raffle/NMKR/*
+        git diff --quiet && git diff --staged --quiet || git commit -m "Add changes"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+         github_token: ${{ secrets.GITHUB_TOKEN }}
+         branch: ${{ github.ref }}
+
