@@ -10,18 +10,18 @@
           "CNC Member Pool: ": "RCADA",
           "Website": "https://www.stakecardanopool.com/"
         },
-        "1_Project Details:": {
+        "2_Project Details:": {
           "Project Name:": "CNC Ala",
           "Location:": "Madagascar, Ranomafana",
           "Funding Dashboard": "https://cncala.climateneutralcardano.org/"
         },
-        "2_Socials:": {
+        "3_Socials:": {
           "Website": "https://climateneutralcardano.org/cnc-ala-ispo/",
           "Twitter": "https://twitter.com/CNCardano",
           "Discord": "https://discord.com/invite/5wZg7cQJeM",
           "Telegram": "https://t.me/+eR_00UAp9PY5N2Iy"
         },
-        "3_Attributes:": {
+        "4_Attributes:": {
           "Ticket:": 47,
           "Total Supply:": 600,
           "Price:": "50 ADA",
@@ -29,8 +29,8 @@
           "Issued by:": "CNC Alliance",
           "Raffle Automation by:": "Marlowe Smart Contract"
         },
-        "4_Series:": "CNC Ala Raffle",
-        "5_Description": [
+        "5_Series:": "CNC Ala Raffle",
+        "1_Description": [
           "Transforming Digital Art into Ecological Action",
           "with every NFT Raffle Ticket purchased!",
           "Our Raffle aims to raise 30,000 ADA from",
