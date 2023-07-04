@@ -21,21 +21,28 @@
           "Discord": "https://discord.com/invite/5wZg7cQJeM",
           "Telegram": "https://t.me/+eR_00UAp9PY5N2Iy"
         },
-        "3_Attributes/": {
+        "3_Attributes:": {
           "Ticket:": 137,
           "Total Supply:": 600,
           "Price:": "50 ADA",
           "NGO:": "Tetikasa Ala",
           "Issued by:": "CNC Alliance",
-          "Smart Contract by:": "Marlowe"
+          "Raffle Automation by:": "Marlowe Smart Contract"
         },
         "4_Series:": "CNC Ala Raffle",
         "5_Description": [
-          "Preserving Earth's Canvas: Your NFT, Our Impact!",
-          "An investment in our planet.",
-          "Each NFT sold aids crucial ecological conservation efforts.",
-          "Together, we're turning digital art into tangible change.",
-          "Your NFT, our shared future!",
+          "Transforming Digital Art into Ecological Action",
+          "with every NFT Raffle Ticket purchased!",
+          "Our Raffle aims to raise 30,000 ADA from",
+          "600 ticket sales, edging us closer to our ambitious",
+          "100,000 ADA goal for the CNC Ala project.",
+          "All proceeds go directly to our NGO partner, ",
+          "Tetikasa Ala, in Madagascar.",
+          "Each ticket you purchase is more than just a chance to win,",
+          " it's a direct investment in sustainable development.",
+          "Dive deeper into our initiative by visiting ",
+          "the CNC Ala project website.",
+          "Digital art becomes real-world impact!",
           "- Thank you for your support -"
         ],
         "files": [
