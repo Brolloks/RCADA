@@ -31,6 +31,7 @@
         },
         "5_Series:": "CNC Ala Raffle",
         "1_Description": [
+          "~",
           "Transforming Digital Art into Ecological Action",
           "with every NFT Raffle Ticket purchased!",
           "Our Raffle aims to raise 30,000 ADA from",
@@ -43,7 +44,8 @@
           "Dive deeper into our initiative by visiting ",
           "the CNC Ala project website.",
           "Digital art becomes real-world impact!",
-          "- Thank you for your support -"
+          "- Thank you for your support -",
+          "~"
         ],
         "files": [
           {
